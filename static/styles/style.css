@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  background-color: grey;
+  justify-content: space-evenly;
+  padding: 20px 0px 20px 0px;
+  font-size: 28px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: black;
+}
+nav a:visited {
+  color: black;
+}
+section {
+  margin-top: 20px;
+  text-align: center;
+}
+section img {
+  height: 200px;
+  width: auto;
+}
+footer {
+  margin-top: auto;
+  text-align: center;
+}
